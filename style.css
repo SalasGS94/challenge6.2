@@ -1,0 +1,95 @@
+:root {
+    --border-radius: 0.3rem;
+    --mains: #6edaa8;
+    --subs: #2f8d3d;
+    --dark: #1b4626;
+}
+  
+body {
+    color: var(--dark);
+    height: 100vh;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+  
+main {
+    margin-left: 40px auto;
+    width: 94%;
+    min-height:100%;
+    overflow: auto;
+}
+
+h1, h2, h3, h4 {
+    color: var(--dark);
+}
+
+.btn {
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 6px 5px;
+    width: 100%;
+    display: block;
+    margin: 5px 0;
+    border-radius: var(--border-radius);
+    color: var(--mains);
+    border: none;
+    outline: none;
+    background-color: var(--dark);
+    transform: translate(-1px, -1px);
+}
+
+.website-title {
+    font-size: 3rem;
+    background-color: var(--mains);
+    color: var(--dark);
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: var(--border-radius);
+}
+  
+.list-group {
+    margin-bottom: 10px;
+    padding: 1.5%;
+    border-radius: var(--border-radius);
+    background-color: var(--dark);
+    color: rgb(88, 208, 88);
+    text-decoration: none;
+}
+  
+.icon {
+    width:10%;
+    height:10%;
+}
+
+.card {
+    margin: 0 0 20px 0;
+    border: 3px solid var(--dark);
+    border-radius: var(--border-radius);
+}
+  
+.card-header {
+    color: var(--mains);
+    background-color: var(--dark);
+    padding: 2.5%;
+    border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
+}
+
+.individual-days {
+    color: var(--mains);
+    background-color: var(--dark);
+    border-radius: var(--border-radius);
+    height: 250px;
+    line-height: 1.8;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.side-title {
+    display:none;
+}
+
+.five-day {
+    display:flex;
+}
