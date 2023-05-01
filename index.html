@@ -9,44 +9,39 @@
 </head>
 
 <body class="flex-colomn min-100-vh">
+  
 <header>
-    <h1 class="website-title">Weather Dashboard</h1>
+  <h1 class="website-title">Weather Dashboard</h1>
 </header>
 
 <main class="flex-row justify-space-between">
-    <div class="col-12 col-sm-12 col-md-4 float-start">
-
-      <div class="card">
-        <h3 class="card-header text-uppercase">Search for a city</h3>
-        <div id="user-form" class="card-body">
-          <input type="text" id="myInput" placeholder="City"/>
-          <button class="btn" id="searchBtn">Search</button>
-        </div>
-      </div>
-
-      <div class="history card">
-        <h3 class="card-header text-uppercase">Search History</h3>
+  <div class="col-12 col-sm-12 col-md-4 float-start">
+    <div class="card">
+      <h3 class="card-header text-uppercase">Search for a city</h3>
+      <div id="user-form" class="card-body">
+        <input type="text" id="myInput" placeholder="City"/>
+        <button class="btn" id="searchBtn">Search</button>
       </div>
     </div>
-
-    <div class="col-12 col-sm-12 col-md-8 float-end">
-      <div>
-        <h2 class="side-title text-uppercase bg-light">Current Weather</h2>
-        <div class="city"></div>
-      </div>
-
-      <div>
-        <h2 class="side-title text-uppercase bg-light">Forecast for 5 days</h2>
-        <div class="five-day"></div>
-      </div>
+    <div class="history card">
+      <h3 class="card-header text-uppercase">Search History</h3>
     </div>
+  </div>
+  <div class="col-12 col-sm-12 col-md-8 float-end">
+    <div>
+      <h2 class="side-title text-uppercase bg-light">Current Weather</h2>
+      <div class="city"></div>
+    </div>
+    <div>
+      <h2 class="side-title text-uppercase bg-light">Forecast for 5 days</h2>
+      <div class="five-day"></div>
+    </div>
+  </div>
+</main>
 
-  </main>
-
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="./script.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="./script.js"></script>
 
 </body>
-
 </html>
